@@ -11,10 +11,10 @@ def load_and_save(config_path):
     new_cols = [col.replace(" ", "_") for col in df.columns]
     raw_data_path = config["load_data"]["raw_dataset_csv"]
     df.to_csv(raw_data_path, sep=",", index=False, header=new_cols)
-
+    #print(new_cols)
 
 if __name__=="__main__":
     args = argparse.ArgumentParser()
-    args.add_argument("--config", default="params.yaml")
+    args.add_argument("--config", default="C:\\Users\\aryan\\Downloads\\mlops_session2\\params.yaml")
     parsed_args = args.parse_args()
     load_and_save(config_path=parsed_args.config)

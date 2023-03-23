@@ -9,7 +9,7 @@ data_source:
 
 
 load_data:
-  raw_dataset_csv: data/raw/winequality.csv
+  raw_dataset_csv: C:\Users\aryan\Downloads\mlops_session2\data\raw\winequality.csv
 
 split_data:
   train_path: data/processed/train_winequality.csv
