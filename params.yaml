@@ -25,8 +25,8 @@ estimators:
       l1_ratio: 0.4
 model_dir: saved_models
 
-#reports:
- # params: report/params.json
-  #scores: report/scores.json
+reports:
+  params: C:\Users\aryan\Downloads\mlops_session2\report\params.json
+  scores: C:\Users\aryan\Downloads\mlops_session2\report\scores.json
 
-#webapp_model_dir: prediction_service/model/model.joblib
+webapp_model_dir: C:\Users\aryan\Downloads\mlops_session2\prediction_service\model\model.joblib
